@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import {store} from "./redux/store"
 import { createInertiaApp,Link, usePage } from '@inertiajs/react';
-
+import Footer from './Components/Footer';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import "./i18n.js"
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
@@ -22,6 +22,7 @@ createInertiaApp({
                 <div className={'mt-[4rem]'}>
                     <App {...props} />
                 </div>
+                <Footer/>
             </Provider>
     );
     },

@@ -1,0 +1,804 @@
+{
+    "products": [
+      {
+        "title": "Vintage Denim Jeans",
+        "description": "Classic vintage denim jeans crafted with high-quality denim, featuring a timeless design perfect for any casual occasion.",
+        "price": "99.99",
+        "rating": 9,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/02/95/2a/02952a80ffa68f1ae84de3628d060767.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg", "https://i.pinimg.com/236x/ce/eb/7e/ceeb7e4c79c74850d455ad906a420494.jpg","https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg"],
+        "quantity": 20,
+        "slug": "vintage-denim-jeans",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User1",
+            "body": "Review1",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Casual Hoodie Sweatshirt",
+        "description": "Stay cozy and stylish with our casual hoodie sweatshirt, made from soft, breathable fabric for all-day comfort.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/e2/d5/02/e2d5024290203e4482f194773fb44f44.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/bc/7b/55/bc7b5532a789b577b786ce4ce2ffe8dd.jpg", "https://i.pinimg.com/236x/73/ec/20/73ec207c18cc7b8e413d1596c7a7867b.jpg"],
+        "quantity": 30,
+        "slug": "casual-hoodie-sweatshirt",
+        "colors": ["Gray", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User2",
+            "body": "Review2",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Striped Polo Shirt",
+        "description": "Add a touch of sophistication to your wardrobe with our striped polo shirt, featuring a classic design and comfortable fit.",
+        "price": "29.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/96/5c/2e/965c2ec7a24b02e5d764c8d47178532c.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/54/05/c5/5405c58db33a5400332421838cc323b6.jpg", "https://i.pinimg.com/236x/70/cc/3c/70cc3c9a01352524b549e56f8a4c2211.jpg"],
+        "quantity": 50,
+        "slug": "striped-polo-shirt",
+        "colors": ["Blue", "Gray", "Navy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User3",
+            "body": "Review3",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Denim Jacket",
+        "description": "Add a trendy edge to your outfit with our denim jacket, crafted from durable denim fabric and featuring a versatile design.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Men","Kids"],
+        "main_image": "https://i.pinimg.com/236x/3b/ad/ee/3badee5b48f31e31ffa8038c55e55288.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/5a/fa/9a/5afa9a4afa96116a40cf58088f65fe03.jpg"],
+        "quantity": 15,
+        "slug": "denim-jacket",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User5",
+            "body": "Review5",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Stylish Dress Shirt",
+        "description": "Look sharp and sophisticated in our stylish dress shirt, tailored for a perfect fit and crafted from high-quality fabric.",
+        "price": "59.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/48/4c/14/484c14fdea7dff33c1bc01f4a3aa7d0f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/85/66/89/8566890330fb9e66df5b1b704631a8ed.jpg", "https://i.pinimg.com/236x/f8/fd/68/f8fd687375f484abda116bbf05c4cf8a.jpg"],
+        "quantity": 25,
+        "slug": "stylish-dress-shirt",
+        "colors": ["White", "Blue", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User7",
+            "body": "Review7",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Casual Summer Shorts",
+        "description": "Stay cool and comfortable in our casual summer shorts, made from lightweight fabric and featuring a relaxed fit.",
+        "price": "39.99",
+        "rating": 8,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/9b/da/ac/9bdaac0ca34efd8440a807346bc7702f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/ac/a1/cf/aca1cf20cec83d2077573642d694acca.jpg", "https://i.pinimg.com/236x/d7/3c/57/d73c57f44a4316abfcc80bdbc9f8610b.jpg"],
+        "quantity": 40,
+        "slug": "casual-summer-shorts",
+        "colors": ["Black", "Blue", "Red"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User8",
+            "body": "Review8",
+            "rating": 8
+          }
+        ]
+      },
+      {
+        "title": "Classic Chinos",
+        "description": "Achieve a polished look with our classic chinos, featuring a tailored fit and versatile design suitable for any occasion.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/35/47/91/35479127dcb495433ad7a06e745f7aaa.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/55/48/62/554862813f66f24a8111a4036ab0b40e.jpg", "https://i.pinimg.com/236x/8c/42/88/8c4288cd9466e1d26bc42e320b635d71.jpg"],
+        "quantity": 20,
+        "slug": "classic-chinos",
+        "colors": ["Khaki", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User9",
+            "body": "Review9",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Denim Shorts",
+        "description": "Keep it casual and stylish with our denim shorts, featuring a classic denim design and comfortable fit for everyday wear.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Women"],
+        "main_image": "https://i.pinimg.com/564x/17/91/69/1791696c4205e02b790259c68a8ab2b2.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/34/e0/ec/34e0ec78e7f9167b6fb2659bb7227e04.jpg", "https://i.pinimg.com/236x/77/3d/c1/773dc1185bdeef1583b88a19a0368e3d.jpg"],
+        "quantity": 30,
+        "slug": "denim-shorts",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User10",
+            "body": "Review10",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Vintage Denim Jeans",
+        "description": "Classic vintage denim jeans crafted with high-quality denim, featuring a timeless design perfect for any casual occasion.",
+        "price": "99.99",
+        "rating": 9,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/02/95/2a/02952a80ffa68f1ae84de3628d060767.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg", "https://i.pinimg.com/236x/ce/eb/7e/ceeb7e4c79c74850d455ad906a420494.jpg","https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg"],
+        "quantity": 20,
+        "slug": "vintage-denim-jeans",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User1",
+            "body": "Review1",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Casual Hoodie Sweatshirt",
+        "description": "Stay cozy and stylish with our casual hoodie sweatshirt, made from soft, breathable fabric for all-day comfort.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/e2/d5/02/e2d5024290203e4482f194773fb44f44.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/bc/7b/55/bc7b5532a789b577b786ce4ce2ffe8dd.jpg", "https://i.pinimg.com/236x/73/ec/20/73ec207c18cc7b8e413d1596c7a7867b.jpg"],
+        "quantity": 30,
+        "slug": "casual-hoodie-sweatshirt",
+        "colors": ["Gray", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User2",
+            "body": "Review2",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Striped Polo Shirt",
+        "description": "Add a touch of sophistication to your wardrobe with our striped polo shirt, featuring a classic design and comfortable fit.",
+        "price": "29.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/96/5c/2e/965c2ec7a24b02e5d764c8d47178532c.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/54/05/c5/5405c58db33a5400332421838cc323b6.jpg", "https://i.pinimg.com/236x/70/cc/3c/70cc3c9a01352524b549e56f8a4c2211.jpg"],
+        "quantity": 50,
+        "slug": "striped-polo-shirt",
+        "colors": ["Blue", "Gray", "Navy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User3",
+            "body": "Review3",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Denim Jacket",
+        "description": "Add a trendy edge to your outfit with our denim jacket, crafted from durable denim fabric and featuring a versatile design.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Men","Kids"],
+        "main_image": "https://i.pinimg.com/236x/3b/ad/ee/3badee5b48f31e31ffa8038c55e55288.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/5a/fa/9a/5afa9a4afa96116a40cf58088f65fe03.jpg"],
+        "quantity": 15,
+        "slug": "denim-jacket",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User5",
+            "body": "Review5",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Stylish Dress Shirt",
+        "description": "Look sharp and sophisticated in our stylish dress shirt, tailored for a perfect fit and crafted from high-quality fabric.",
+        "price": "59.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/48/4c/14/484c14fdea7dff33c1bc01f4a3aa7d0f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/85/66/89/8566890330fb9e66df5b1b704631a8ed.jpg", "https://i.pinimg.com/236x/f8/fd/68/f8fd687375f484abda116bbf05c4cf8a.jpg"],
+        "quantity": 25,
+        "slug": "stylish-dress-shirt",
+        "colors": ["White", "Blue", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User7",
+            "body": "Review7",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Casual Summer Shorts",
+        "description": "Stay cool and comfortable in our casual summer shorts, made from lightweight fabric and featuring a relaxed fit.",
+        "price": "39.99",
+        "rating": 8,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/9b/da/ac/9bdaac0ca34efd8440a807346bc7702f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/ac/a1/cf/aca1cf20cec83d2077573642d694acca.jpg", "https://i.pinimg.com/236x/d7/3c/57/d73c57f44a4316abfcc80bdbc9f8610b.jpg"],
+        "quantity": 40,
+        "slug": "casual-summer-shorts",
+        "colors": ["Black", "Blue", "Red"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User8",
+            "body": "Review8",
+            "rating": 8
+          }
+        ]
+      },
+      {
+        "title": "Classic Chinos",
+        "description": "Achieve a polished look with our classic chinos, featuring a tailored fit and versatile design suitable for any occasion.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/35/47/91/35479127dcb495433ad7a06e745f7aaa.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/55/48/62/554862813f66f24a8111a4036ab0b40e.jpg", "https://i.pinimg.com/236x/8c/42/88/8c4288cd9466e1d26bc42e320b635d71.jpg"],
+        "quantity": 20,
+        "slug": "classic-chinos",
+        "colors": ["Khaki", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User9",
+            "body": "Review9",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Denim Shorts",
+        "description": "Keep it casual and stylish with our denim shorts, featuring a classic denim design and comfortable fit for everyday wear.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Women"],
+        "main_image": "https://i.pinimg.com/564x/17/91/69/1791696c4205e02b790259c68a8ab2b2.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/34/e0/ec/34e0ec78e7f9167b6fb2659bb7227e04.jpg", "https://i.pinimg.com/236x/77/3d/c1/773dc1185bdeef1583b88a19a0368e3d.jpg"],
+        "quantity": 30,
+        "slug": "denim-shorts",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User10",
+            "body": "Review10",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Vintage Denim Jeans",
+        "description": "Classic vintage denim jeans crafted with high-quality denim, featuring a timeless design perfect for any casual occasion.",
+        "price": "99.99",
+        "rating": 9,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/02/95/2a/02952a80ffa68f1ae84de3628d060767.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg", "https://i.pinimg.com/236x/ce/eb/7e/ceeb7e4c79c74850d455ad906a420494.jpg","https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg"],
+        "quantity": 20,
+        "slug": "vintage-denim-jeans",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User1",
+            "body": "Review1",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Casual Hoodie Sweatshirt",
+        "description": "Stay cozy and stylish with our casual hoodie sweatshirt, made from soft, breathable fabric for all-day comfort.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/e2/d5/02/e2d5024290203e4482f194773fb44f44.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/bc/7b/55/bc7b5532a789b577b786ce4ce2ffe8dd.jpg", "https://i.pinimg.com/236x/73/ec/20/73ec207c18cc7b8e413d1596c7a7867b.jpg"],
+        "quantity": 30,
+        "slug": "casual-hoodie-sweatshirt",
+        "colors": ["Gray", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User2",
+            "body": "Review2",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Striped Polo Shirt",
+        "description": "Add a touch of sophistication to your wardrobe with our striped polo shirt, featuring a classic design and comfortable fit.",
+        "price": "29.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/96/5c/2e/965c2ec7a24b02e5d764c8d47178532c.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/54/05/c5/5405c58db33a5400332421838cc323b6.jpg", "https://i.pinimg.com/236x/70/cc/3c/70cc3c9a01352524b549e56f8a4c2211.jpg"],
+        "quantity": 50,
+        "slug": "striped-polo-shirt",
+        "colors": ["Blue", "Gray", "Navy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User3",
+            "body": "Review3",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Denim Jacket",
+        "description": "Add a trendy edge to your outfit with our denim jacket, crafted from durable denim fabric and featuring a versatile design.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Men","Kids"],
+        "main_image": "https://i.pinimg.com/236x/3b/ad/ee/3badee5b48f31e31ffa8038c55e55288.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/5a/fa/9a/5afa9a4afa96116a40cf58088f65fe03.jpg"],
+        "quantity": 15,
+        "slug": "denim-jacket",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User5",
+            "body": "Review5",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Stylish Dress Shirt",
+        "description": "Look sharp and sophisticated in our stylish dress shirt, tailored for a perfect fit and crafted from high-quality fabric.",
+        "price": "59.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/48/4c/14/484c14fdea7dff33c1bc01f4a3aa7d0f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/85/66/89/8566890330fb9e66df5b1b704631a8ed.jpg", "https://i.pinimg.com/236x/f8/fd/68/f8fd687375f484abda116bbf05c4cf8a.jpg"],
+        "quantity": 25,
+        "slug": "stylish-dress-shirt",
+        "colors": ["White", "Blue", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User7",
+            "body": "Review7",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Casual Summer Shorts",
+        "description": "Stay cool and comfortable in our casual summer shorts, made from lightweight fabric and featuring a relaxed fit.",
+        "price": "39.99",
+        "rating": 8,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/9b/da/ac/9bdaac0ca34efd8440a807346bc7702f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/ac/a1/cf/aca1cf20cec83d2077573642d694acca.jpg", "https://i.pinimg.com/236x/d7/3c/57/d73c57f44a4316abfcc80bdbc9f8610b.jpg"],
+        "quantity": 40,
+        "slug": "casual-summer-shorts",
+        "colors": ["Black", "Blue", "Red"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User8",
+            "body": "Review8",
+            "rating": 8
+          }
+        ]
+      },
+      {
+        "title": "Classic Chinos",
+        "description": "Achieve a polished look with our classic chinos, featuring a tailored fit and versatile design suitable for any occasion.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/35/47/91/35479127dcb495433ad7a06e745f7aaa.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/55/48/62/554862813f66f24a8111a4036ab0b40e.jpg", "https://i.pinimg.com/236x/8c/42/88/8c4288cd9466e1d26bc42e320b635d71.jpg"],
+        "quantity": 20,
+        "slug": "classic-chinos",
+        "colors": ["Khaki", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User9",
+            "body": "Review9",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Denim Shorts",
+        "description": "Keep it casual and stylish with our denim shorts, featuring a classic denim design and comfortable fit for everyday wear.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Women"],
+        "main_image": "https://i.pinimg.com/564x/17/91/69/1791696c4205e02b790259c68a8ab2b2.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/34/e0/ec/34e0ec78e7f9167b6fb2659bb7227e04.jpg", "https://i.pinimg.com/236x/77/3d/c1/773dc1185bdeef1583b88a19a0368e3d.jpg"],
+        "quantity": 30,
+        "slug": "denim-shorts",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User10",
+            "body": "Review10",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Vintage Denim Jeans",
+        "description": "Classic vintage denim jeans crafted with high-quality denim, featuring a timeless design perfect for any casual occasion.",
+        "price": "99.99",
+        "rating": 9,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/02/95/2a/02952a80ffa68f1ae84de3628d060767.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg", "https://i.pinimg.com/236x/ce/eb/7e/ceeb7e4c79c74850d455ad906a420494.jpg","https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg"],
+        "quantity": 20,
+        "slug": "vintage-denim-jeans",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User1",
+            "body": "Review1",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Casual Hoodie Sweatshirt",
+        "description": "Stay cozy and stylish with our casual hoodie sweatshirt, made from soft, breathable fabric for all-day comfort.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/e2/d5/02/e2d5024290203e4482f194773fb44f44.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/bc/7b/55/bc7b5532a789b577b786ce4ce2ffe8dd.jpg", "https://i.pinimg.com/236x/73/ec/20/73ec207c18cc7b8e413d1596c7a7867b.jpg"],
+        "quantity": 30,
+        "slug": "casual-hoodie-sweatshirt",
+        "colors": ["Gray", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User2",
+            "body": "Review2",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Striped Polo Shirt",
+        "description": "Add a touch of sophistication to your wardrobe with our striped polo shirt, featuring a classic design and comfortable fit.",
+        "price": "29.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/96/5c/2e/965c2ec7a24b02e5d764c8d47178532c.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/54/05/c5/5405c58db33a5400332421838cc323b6.jpg", "https://i.pinimg.com/236x/70/cc/3c/70cc3c9a01352524b549e56f8a4c2211.jpg"],
+        "quantity": 50,
+        "slug": "striped-polo-shirt",
+        "colors": ["Blue", "Gray", "Navy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User3",
+            "body": "Review3",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Denim Jacket",
+        "description": "Add a trendy edge to your outfit with our denim jacket, crafted from durable denim fabric and featuring a versatile design.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Men","Kids"],
+        "main_image": "https://i.pinimg.com/236x/3b/ad/ee/3badee5b48f31e31ffa8038c55e55288.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/5a/fa/9a/5afa9a4afa96116a40cf58088f65fe03.jpg"],
+        "quantity": 15,
+        "slug": "denim-jacket",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User5",
+            "body": "Review5",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Stylish Dress Shirt",
+        "description": "Look sharp and sophisticated in our stylish dress shirt, tailored for a perfect fit and crafted from high-quality fabric.",
+        "price": "59.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/48/4c/14/484c14fdea7dff33c1bc01f4a3aa7d0f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/85/66/89/8566890330fb9e66df5b1b704631a8ed.jpg", "https://i.pinimg.com/236x/f8/fd/68/f8fd687375f484abda116bbf05c4cf8a.jpg"],
+        "quantity": 25,
+        "slug": "stylish-dress-shirt",
+        "colors": ["White", "Blue", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User7",
+            "body": "Review7",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Casual Summer Shorts",
+        "description": "Stay cool and comfortable in our casual summer shorts, made from lightweight fabric and featuring a relaxed fit.",
+        "price": "39.99",
+        "rating": 8,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/9b/da/ac/9bdaac0ca34efd8440a807346bc7702f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/ac/a1/cf/aca1cf20cec83d2077573642d694acca.jpg", "https://i.pinimg.com/236x/d7/3c/57/d73c57f44a4316abfcc80bdbc9f8610b.jpg"],
+        "quantity": 40,
+        "slug": "casual-summer-shorts",
+        "colors": ["Black", "Blue", "Red"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User8",
+            "body": "Review8",
+            "rating": 8
+          }
+        ]
+      },
+      {
+        "title": "Classic Chinos",
+        "description": "Achieve a polished look with our classic chinos, featuring a tailored fit and versatile design suitable for any occasion.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/35/47/91/35479127dcb495433ad7a06e745f7aaa.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/55/48/62/554862813f66f24a8111a4036ab0b40e.jpg", "https://i.pinimg.com/236x/8c/42/88/8c4288cd9466e1d26bc42e320b635d71.jpg"],
+        "quantity": 20,
+        "slug": "classic-chinos",
+        "colors": ["Khaki", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User9",
+            "body": "Review9",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Denim Shorts",
+        "description": "Keep it casual and stylish with our denim shorts, featuring a classic denim design and comfortable fit for everyday wear.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Women"],
+        "main_image": "https://i.pinimg.com/564x/17/91/69/1791696c4205e02b790259c68a8ab2b2.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/34/e0/ec/34e0ec78e7f9167b6fb2659bb7227e04.jpg", "https://i.pinimg.com/236x/77/3d/c1/773dc1185bdeef1583b88a19a0368e3d.jpg"],
+        "quantity": 30,
+        "slug": "denim-shorts",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User10",
+            "body": "Review10",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Vintage Denim Jeans",
+        "description": "Classic vintage denim jeans crafted with high-quality denim, featuring a timeless design perfect for any casual occasion.",
+        "price": "99.99",
+        "rating": 9,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/02/95/2a/02952a80ffa68f1ae84de3628d060767.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg", "https://i.pinimg.com/236x/ce/eb/7e/ceeb7e4c79c74850d455ad906a420494.jpg","https://i.pinimg.com/236x/6b/28/74/6b2874761654bf6b762ed3b49499a978.jpg"],
+        "quantity": 20,
+        "slug": "vintage-denim-jeans",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User1",
+            "body": "Review1",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Casual Hoodie Sweatshirt",
+        "description": "Stay cozy and stylish with our casual hoodie sweatshirt, made from soft, breathable fabric for all-day comfort.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Fashion","Kids"],
+        "main_image": "https://i.pinimg.com/236x/e2/d5/02/e2d5024290203e4482f194773fb44f44.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/bc/7b/55/bc7b5532a789b577b786ce4ce2ffe8dd.jpg", "https://i.pinimg.com/236x/73/ec/20/73ec207c18cc7b8e413d1596c7a7867b.jpg"],
+        "quantity": 30,
+        "slug": "casual-hoodie-sweatshirt",
+        "colors": ["Gray", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User2",
+            "body": "Review2",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Striped Polo Shirt",
+        "description": "Add a touch of sophistication to your wardrobe with our striped polo shirt, featuring a classic design and comfortable fit.",
+        "price": "29.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/96/5c/2e/965c2ec7a24b02e5d764c8d47178532c.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/54/05/c5/5405c58db33a5400332421838cc323b6.jpg", "https://i.pinimg.com/236x/70/cc/3c/70cc3c9a01352524b549e56f8a4c2211.jpg"],
+        "quantity": 50,
+        "slug": "striped-polo-shirt",
+        "colors": ["Blue", "Gray", "Navy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User3",
+            "body": "Review3",
+            "rating": 10
+          }
+        ]
+      },
+      {
+        "title": "Denim Jacket",
+        "description": "Add a trendy edge to your outfit with our denim jacket, crafted from durable denim fabric and featuring a versatile design.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Men","Kids"],
+        "main_image": "https://i.pinimg.com/236x/3b/ad/ee/3badee5b48f31e31ffa8038c55e55288.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/5a/fa/9a/5afa9a4afa96116a40cf58088f65fe03.jpg"],
+        "quantity": 15,
+        "slug": "denim-jacket",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User5",
+            "body": "Review5",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Stylish Dress Shirt",
+        "description": "Look sharp and sophisticated in our stylish dress shirt, tailored for a perfect fit and crafted from high-quality fabric.",
+        "price": "59.99",
+        "rating": 9,
+        "category": ["Fashion","Men"],
+        "main_image": "https://i.pinimg.com/236x/48/4c/14/484c14fdea7dff33c1bc01f4a3aa7d0f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/85/66/89/8566890330fb9e66df5b1b704631a8ed.jpg", "https://i.pinimg.com/236x/f8/fd/68/f8fd687375f484abda116bbf05c4cf8a.jpg"],
+        "quantity": 25,
+        "slug": "stylish-dress-shirt",
+        "colors": ["White", "Blue", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User7",
+            "body": "Review7",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Casual Summer Shorts",
+        "description": "Stay cool and comfortable in our casual summer shorts, made from lightweight fabric and featuring a relaxed fit.",
+        "price": "39.99",
+        "rating": 8,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/9b/da/ac/9bdaac0ca34efd8440a807346bc7702f.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/ac/a1/cf/aca1cf20cec83d2077573642d694acca.jpg", "https://i.pinimg.com/236x/d7/3c/57/d73c57f44a4316abfcc80bdbc9f8610b.jpg"],
+        "quantity": 40,
+        "slug": "casual-summer-shorts",
+        "colors": ["Black", "Blue", "Red"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User8",
+            "body": "Review8",
+            "rating": 8
+          }
+        ]
+      },
+      {
+        "title": "Classic Chinos",
+        "description": "Achieve a polished look with our classic chinos, featuring a tailored fit and versatile design suitable for any occasion.",
+        "price": "79.99",
+        "rating": 9,
+        "category": ["Fashion","Women"],
+        "main_image": "https://i.pinimg.com/236x/35/47/91/35479127dcb495433ad7a06e745f7aaa.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/55/48/62/554862813f66f24a8111a4036ab0b40e.jpg", "https://i.pinimg.com/236x/8c/42/88/8c4288cd9466e1d26bc42e320b635d71.jpg"],
+        "quantity": 20,
+        "slug": "classic-chinos",
+        "colors": ["Khaki", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User9",
+            "body": "Review9",
+            "rating": 9
+          }
+        ]
+      },
+      {
+        "title": "Denim Shorts",
+        "description": "Keep it casual and stylish with our denim shorts, featuring a classic denim design and comfortable fit for everyday wear.",
+        "price": "49.99",
+        "rating": 8,
+        "category": ["Women"],
+        "main_image": "https://i.pinimg.com/564x/17/91/69/1791696c4205e02b790259c68a8ab2b2.jpg",
+        "secondary_images": ["https://i.pinimg.com/236x/34/e0/ec/34e0ec78e7f9167b6fb2659bb7227e04.jpg", "https://i.pinimg.com/236x/77/3d/c1/773dc1185bdeef1583b88a19a0368e3d.jpg"],
+        "quantity": 30,
+        "slug": "denim-shorts",
+        "colors": ["Blue", "Black"],
+        "sizes": ["S", "M", "L", "XL"],
+        "reviews": [
+          {
+            "username": "User10",
+            "body": "Review10",
+            "rating": 9
+          }
+        ]
+      }
+    ]
+  }

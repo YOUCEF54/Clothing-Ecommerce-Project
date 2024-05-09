@@ -46,7 +46,7 @@ function Tooltip({
       default:
         return 'text-slate-600 bg-white dark:bg-slate-700 dark:text-slate-100 border-slate-200 dark:border-slate-600';
     }
-  };    
+  };
 
   const positionInnerClasses = (position) => {
     switch (position) {
@@ -78,7 +78,7 @@ function Tooltip({
         <Transition
           show={tooltipOpen}
           tag="div"
-          className={`rounded border overflow-hidden shadow-lg ${sizeClasses(size)} ${colorClasses(bg)} ${positionInnerClasses(position)}`}
+          className={`rounded border overflow-hidden shadow-lg text-nowrap  ${sizeClasses(size)} ${colorClasses(bg)} ${positionInnerClasses(position)}`}
           enter="transition ease-out duration-200 transform"
           enterStart="opacity-0 -translate-y-2"
           enterEnd="opacity-100 translate-y-0"

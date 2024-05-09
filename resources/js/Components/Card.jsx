@@ -5,7 +5,7 @@ import { Link } from "@inertiajs/react";
 import { GoHeartFill } from "react-icons/go";
 
 
-export default function Card(){
+export default function Card({title,price,main_image}){
     const ref= useRef(null);
     const isInView = useInView(ref, {once: true})
     const mainConrols = useAnimation()
@@ -16,7 +16,6 @@ export default function Card(){
     },[isInView])
     return(
 
-        <div ref={ref} class="flex sm:flex-col max-w-md overflow-hidden  rounded-lg  shadow-lg border border-black ">
     <motion.div
         variants={
             {
@@ -24,10 +23,11 @@ export default function Card(){
                 visible:{opacity:1,y:0}
             }
         }
+        ref={ref}
         initial= "hidden"
         animate= {mainConrols}
         transition={{duration:0.5, delay:0.25}}
-        className=" relative ">
+        className=" relative flex flex-col max-w-[18rem]k w-[15rem] overflow-hidden  rounded-lg  shadow-lg border border-black  ">
         <div className=" opacity-0 hover:opacity-100 transition-all duration-200 absolute w-full backdrop-filter backdrop-blur-lg  h-full flex items-center justify-center">
             <Link href={route('ProductDetails')} className="bg-yellow-500 p-2 rounded-full border text-black border-black  font-bold">Buy now!</Link>
         </div>
@@ -39,17 +39,16 @@ export default function Card(){
         </div>
 
         <img
-            src={import.meta.env.VITE_APP_PRODUCT_IMAGE3}
+            src={main_image}
             alt="product"
             className=" object-cover  w-full h-[15rem] transition rounded-t-lgg "
             />
 
         <div class="px-2 py-1 flex justify-between text-white bg-black">
-            <h1>T-shirt For Men</h1>
-            <span>220$</span>
+            <h1 className=" line-clamp-1">{title}</h1>
+            <span>{price}$</span>
         </div>
     </motion.div>
-</div>
 
     )
 }

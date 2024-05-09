@@ -164,6 +164,11 @@ Route::get('/ProductDetails', function () {
 })->middleware('auth')->name('ProductDetails');
 
 
+Route::get('/ViewAll', function () {
+    return Inertia::render("ViewAll");
+})->middleware('auth')->name('ViewAll');
+
+
 
 
 

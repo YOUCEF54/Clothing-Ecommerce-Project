@@ -1,8 +1,8 @@
 /*
-  This example requires Tailwind CSS v2.0+ 
-  
+  This example requires Tailwind CSS v2.0+
+
   This example requires some changes to your config:
-  
+
   ```
   // tailwind.config.js
   module.exports = {
@@ -163,10 +163,10 @@ export default function Example() {
               <h2 className="sr-only">Filters</h2>
 
               <button
-                className="p- m-4 size-12 items-center border rounded-full   border-[#AE8D70]"
+                className="p- m- size-8 items-center border rounded-full   border-[#AE8D70]"
                 onClick={() => setMobileFiltersOpen(true)}
               >
-                <span><AdjustmentsHorizontalIcon className=' text-4xl w-8 m-auto '/></span>
+                <span><AdjustmentsHorizontalIcon className=' size-5 text-black  m-auto '/></span>
               </button>
 
               <div className="hidden ">
@@ -198,7 +198,7 @@ export default function Example() {
               </div>
             </aside>
 
-            
+
           </div>
         </main>
       </div>
