@@ -1,0 +1,11 @@
+Model Information:
+* title:	AGC Jacket Asset
+* source:	https://sketchfab.com/3d-models/agc-jacket-asset-982cb3a76be1453fbe929d6a00922403
+* author:	Kristen Appleby (https://sketchfab.com/BirdFreak)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AGC Jacket Asset" (https://sketchfab.com/3d-models/agc-jacket-asset-982cb3a76be1453fbe929d6a00922403) by Kristen Appleby (https://sketchfab.com/BirdFreak) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
