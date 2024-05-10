@@ -11,6 +11,7 @@ import { Bars3Icon, XMarkIcon, ShoppingCartIcon, HeartIcon, MagnifyingGlassIcon 
 import LangMenu from './LangMenu';
 import { useAnimation } from 'framer-motion';
 import { FaBarsStaggered } from "react-icons/fa6";
+import { Link } from '@inertiajs/react';
 
 function Nav() {
   const count = useSelector((state)=>state.addToCart.value)
@@ -116,27 +117,18 @@ function Nav() {
         </div>
         <div className={`${(open)?`top-[3.59rem]`:`top-[-15rem]`} transition-all duration-500 ease-in-out w-full lg:hidden fixed z-10 bg-white border-b border-black`}>
           <div className="space-y-1 pt-2 pb-3 ">
-            <Disclosure.Button
-              as="a"
-              href="#"
-              className={`block border-l-4 border-[#AC8C6F] bg-[#be8e5f2f] py-2 pl-3 pr-4 text-base font-medium text-${color} `}
+            {menu?.map((e,index)=>(
+            <Link
+              key={index}
+              href={e.url}
+              className={`${(currentPath === e.url) ? `bg-[#be8e5f2f] hover:bg-[#ae7b482f]`:`hover:bg-gray-50`}  block border-l-4 border-[#AC8C6F]  py-2 pl-3 pr-4 text-base font-medium text-${color} `}
             >
-              Home
-            </Disclosure.Button>
-            <Disclosure.Button
-              as="a"
-              href="#"
-              className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-            >
-              Shop all
-            </Disclosure.Button>
-            <Disclosure.Button
-              as="a"
-              href="#"
-              className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-            >
-              Collections
-            </Disclosure.Button>
+              {e.name}
+            </Link>))}
+
+
+
+
 
 
 

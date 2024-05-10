@@ -42,7 +42,7 @@ function App() {
         </div>
         <div>
         {/* <div className='m-auto mx-[3rem] mt-[3rem] gap-6 grid xl:grid-cols-4 2xl:grid-cols-5 max-xl:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1' style={{ placeItems: 'center' }}> */}
-                  <Carousel1 Data={Data.products}/>
+                  <Carousel1 isHome={true} Data={Data.products}/>
         </div>
       </div>
     )

@@ -8,20 +8,28 @@ const responsive = {
     items: 6
   },
   desktop: {
-    breakpoint: { max: 2000, min: 1024 },
-    items: 5
+    breakpoint: { max: 2000, min: 1500 },
+    items: 6
+  },
+  smallDesktop: {
+    breakpoint: { max: 1500, min: 1024 },
+    items: 4
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1024, min: 680 },
     items: 3
+  },
+  medium: {
+    breakpoint: { max: 680, min: 464 },
+    items: 2
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 2
+    items: 1
   }
 };
 
-export default function Carousel1({Data}){
+export default function Carousel1({Data,isHome}){
 
     return(
         <Carousel className=" z-0 mx-5 mt-4 " responsive={responsive}>
@@ -31,6 +39,7 @@ export default function Carousel1({Data}){
                         <Card
                         title={e.title}
                         price={e.price}
+                        isHome={isHome}
                         main_image={e.main_image}
                         index={index} key={index}/>
 

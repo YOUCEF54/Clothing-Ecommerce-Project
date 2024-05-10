@@ -5,7 +5,7 @@ import { Link } from "@inertiajs/react";
 import { GoHeartFill } from "react-icons/go";
 
 
-export default function Card({title,price,main_image}){
+export default function Card({title,price,main_image,isHome}){
     const ref= useRef(null);
     const isInView = useInView(ref, {once: true})
     const mainConrols = useAnimation()
@@ -27,7 +27,7 @@ export default function Card({title,price,main_image}){
         initial= "hidden"
         animate= {mainConrols}
         transition={{duration:0.5, delay:0.25}}
-        className=" relative flex flex-col max-w-[18rem]k w-[15rem] overflow-hidden  rounded-lg  shadow-lg border border-black  ">
+        className={`${isHome&&`max-md:w-[13rem]`} relative flex flex-col max-w-[18rem]k w-[15rem] overflow-hidden  rounded-lg  shadow-lg border border-black  `}>
         <div className=" opacity-0 hover:opacity-100 transition-all duration-200 absolute w-full backdrop-filter backdrop-blur-lg  h-full flex items-center justify-center">
             <Link href={route('ProductDetails')} className="bg-yellow-500 p-2 rounded-full border text-black border-black  font-bold">Buy now!</Link>
         </div>
@@ -37,6 +37,7 @@ export default function Card({title,price,main_image}){
                 <GoHeartFill className=" fill-transparent  stroke-2 hover:fill-black stroke-black"/>
             </button>
         </div>
+
 
         <img
             src={main_image}

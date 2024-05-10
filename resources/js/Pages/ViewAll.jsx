@@ -31,7 +31,7 @@ export default function ViewAll(){
                         </div>
                     </div>
                 </div>
-                <div className='m-auto  mt-[3rem] gap-6 grid xl:grid-cols-4 2xl:grid-cols-5 max-lg:grid-cols-3 max-md:grid-cols-3 max-sm:grid-cols-1' style={{ placeItems: 'center' }}>
+                <div className='m-auto mt-[3rem] gap-6 grid  grid-cols-5  max-xl:grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1' style={{ placeItems: 'center' }}>
                 {Data.products.map((e,index)=>(
                     <Card
                         title={e.title}
