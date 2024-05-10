@@ -168,6 +168,10 @@ Route::get('/ViewAll', function () {
     return Inertia::render("ViewAll");
 })->middleware('auth')->name('ViewAll');
 
+Route::get('/Cart', function () {
+    return Inertia::render("Cart");
+})->middleware('auth')->name('Cart');
+
 
 
 
