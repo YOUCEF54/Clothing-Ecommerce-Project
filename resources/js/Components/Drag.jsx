@@ -15,8 +15,8 @@ import "filepond-plugin-image-edit/dist/filepond-plugin-image-edit.css";
 import FilePondPluginImageResize from "filepond-plugin-image-resize";
 import FilePondPluginImageTransform from "filepond-plugin-image-transform";
 
-import "../../../vendor/doka.min.css";
-import { create } from "../../../vendor/doka.esm.min";
+// import "../../../vendor/doka.min.css";
+// import { create } from "../../../vendor/doka.esm.min";
 import { useState } from 'react';
 
 registerPlugin(
@@ -149,11 +149,6 @@ const Drag = () => {
             imageResizeTargetHeight={144}
             imageResizeUpscale={false}
             imageResizeMode={"contain"}
-            imageEditEditor={create({
-                cropMinImageWidth: 128,
-                cropMinImageHeight: 128,
-                onconfirm: handleImageEditConfirm
-            })}
         />
         {progress && (
             <progress className='rounded' value={progress.percentage} max="100">

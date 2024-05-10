@@ -29,7 +29,8 @@ export default function Card({title,price,main_image,isHome}){
         transition={{duration:0.5, delay:0.25}}
         className={`${isHome&&`max-md:w-[13rem]`} relative flex flex-col max-w-[18rem]k w-[15rem] overflow-hidden  rounded-lg  shadow-lg border border-black  `}>
         <div className=" opacity-0 hover:opacity-100 transition-all duration-200 absolute w-full backdrop-filter backdrop-blur-lg  h-full flex items-center justify-center">
-            <Link href={route('ProductDetails')} className="bg-yellow-500 p-2 rounded-full border text-black border-black  font-bold">Buy now!</Link>
+            <Link href={route('ProductDetails')}  method="post" data={{ price: price }}  className="bg-yellow-500 p-2 rounded-full border text-black border-black  font-bold">Buy now!</Link>
+
         </div>
 
         <div>

@@ -1,16 +1,14 @@
-import { useState,useRef  } from "react"
+import { useState,useRef,useEffect  } from "react"
 import { Rating } from "@mui/material";
 import { add } from "../redux/addToCartSlice";
 import { useSelector, useDispatch } from 'react-redux'
-import { motion, useScroll } from "framer-motion";
 import Carousel from "@/Components/Carousel";
 import { TbMinus } from 'react-icons/tb'
 import { TbPlus } from 'react-icons/tb'
 import Modal from "../Components/ModalRiv"
-import { ArrowLeftSharp } from "@mui/icons-material";
-import { ArrowRightSharp } from "@mui/icons-material";
 export default function ProductDetails(){
   const count = useSelector((state) => state.addToCart.value)
+
   const dispatch = useDispatch()
 
   const[qnt,setQnt] = useState(0)
@@ -30,6 +28,33 @@ export default function ProductDetails(){
           scrollContainerRef.current.scrollLeft += 100; // Adjust the scrolling amount as needed
       }
   };
+
+  const [price, setPrice] = useState("");
+
+  useEffect(() => {
+    // Fetch CSRF token from meta tag
+    const csrfToken = document.head.querySelector('meta[name="csrf-token"]').content;
+
+    // Make a POST request to fetch price data
+    fetch('/ProductDetails', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-TOKEN': csrfToken, // Include CSRF token in request headers
+      },
+      body: JSON.stringify({ /* Any data you need to send */ })
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Set the price received from the response
+      setPrice(data.price);
+    })
+    .catch(error => {
+      console.error('Error fetching price:', error);
+    });
+  }, []); 
+
+    console.log(price)
     return(
         <div className="font-[sans-serif]  ">
       <div class="p-6 lg:max-w-7xl max-w-2xl max-lg:mx-auto">
@@ -50,7 +75,7 @@ export default function ProductDetails(){
           <div class="lg:col-span-2">
             <h2 class="text-2xl font-extrabold ">T-shirt | Men</h2>
             <div class="flex flex-wrap gap-4 mt-4">
-              <p class="  text-xl font-bold">$120</p>
+              <p class="  text-xl font-bold">${price}</p>
             </div>
             <div className="flex items-center space-x-1 mb-4">
             <Rating defaultValue={4} readOnly/>

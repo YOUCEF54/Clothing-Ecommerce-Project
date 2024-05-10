@@ -45,7 +45,7 @@ export default function SideBar() {
   },[window.screen])
   const sideOpen = useSelector((state)=>state.sideBar.value)
   return (
-         <Card className={` ${(sideOpen)?`  translate-x-0 `:`-translate-x-full`} fixed max-w-[18rem] z-40 bg-[#1C2434] text-white  ease-in-out duration-500 h-[calc(100vh-2rem)] w-full   p-4 shadow-xl shadow-blue-gray-900/5`}>
+         <Card className={` ${(sideOpen)?`  translate-x-0 `:`-translate-x-full`} fixed max-w-[18rem] rounded-none z-40 bg-[#1C2434] text-white  ease-in-out duration-500 h-[calc(100vh-2rem)] w-full   p-4 shadow-xl shadow-blue-gray-900/5`}>
 
       <div className=" flex  py-2 rounded-md  ">
         <button onClick={()=>{dispatch(setOpenSide(!sideOpen))}} className={`${sideOpen?` opacity-100`:` opacity-0 hidden`} duration-500 z-50  flex left-0 mx-2 p-2 text-white bg-[#4338CA]  rounded cursor-pointer`}>

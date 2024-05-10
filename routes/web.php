@@ -164,6 +164,17 @@ Route::get('/ProductDetails', function () {
 })->middleware('auth')->name('ProductDetails');
 
 
+Route::post('/ProductDetails', function (\Illuminate\Http\Request $request) {
+    // Get the price from the request body
+    $price = $request->input('price');
+
+    // Return a valid Inertia response
+    return Inertia::render('ProductDetails', [
+        'price' => $price,
+    ]);
+});
+
+
 Route::get('/ViewAll', function () {
     return Inertia::render("ViewAll");
 })->middleware('auth')->name('ViewAll');
